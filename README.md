@@ -3,9 +3,9 @@
 Para compilar y ejecutar el código es necesario de correr las siguientes lineas en la terminal.
 
 ```
-mpicc bruteforce_file.c -o bruteforce -lmpi -lcrypto
+mpicc bruteforce_file.c -o <nombre_ejecutable> -lmpi -lcrypto
 
-mpirun -np 4 bruteforce 123456L prueba.txt
+mpirun -np 4 bruteforce <key> <archivo.txt>
 ```
 Tambien es necesario el instalar las librearias siguientes:
 
